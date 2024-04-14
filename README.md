@@ -1,2 +1,2 @@
 ### 🪐 Galactic Age Calculator
-This Java program that calculates a user's age based on a planet's solar years.<br/>
+This Java program calculates a user's age on other planets (Mercury, Venus, Jupiter, Saturn) based on their solar years.<br/>
