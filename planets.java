@@ -1,9 +1,5 @@
 package project3;
 /*
-Name: Jillian Lee
- 	  jlee326@uwsp.edu
-Course: APC Programming I
-Meets: Summer 2022
 Description: This program calculates a user's age on several planets.
  */
 
