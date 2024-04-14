@@ -3,10 +3,9 @@ package project1;
 Description: This program calculates a user's age on several planets.
  */
 
-	import java.util.*; //import to use the Scanner
-	//java.util is a package I am borrowing
+	import java.util.*;
 
-import javax.swing.JOptionPane; //need to import the JOptionPane
+import javax.swing.JOptionPane;
 
 	public class planets {
 		
