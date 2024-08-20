@@ -28,7 +28,7 @@ import javax.swing.JOptionPane;
 		String myName; 
 		
 	//ask the user for input
-	String myName = JOptionPane.showInputDialog("Enter Your Full Name: ");
+	String myName = JOptionPane.showInputDialog("Enter Your Name: ");
 	String myAge = JOptionPane.showInputDialog("Enter your Age: ");
 	
 	//convert/parse the user input from string to integer 
@@ -47,7 +47,7 @@ import javax.swing.JOptionPane;
 		String fSaturnAge= String.format("%.2f",saturnAge);
 		
 	//store the output in a string	 
-	String outputStr = "My name is + myName + I am " + myAge + "years old on earth but I would be" + fMercuryAge + "\n" +
+	String outputStr = "My name is + myName + I am " + myAge + "years old on Earth but I would be" + fMercuryAge + "\n" +
 	" years old on Mercury," + fVenusAge + " years old on Venus and" + "\n" +
 	fJupiterAge + " years old on Jupiter, and" +fSaturnAge + " years old on Saturn.";
 									          
