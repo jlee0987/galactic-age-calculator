@@ -47,9 +47,9 @@ import javax.swing.JOptionPane;
 		String fSaturnAge= String.format("%.2f",saturnAge);
 		
 	//store the output in a string	 
-	String outputStr = "My name is + myName + I am " + myAge + " years old on earth but I would be very old on Mercury with " + fMercuryAge + "\n" +
-	"years. Not so old on Venus with " + fVenusAge + " years, very young on Jupiter with " + "\n" +
-	fJupiterAge + " years and really young on Saturn with " +fSaturnAge + " years.";
+	String outputStr = "My name is + myName + I am " + myAge + "years old on earth but I would be" + fMercuryAge + "\n" +
+	" years old on Mercury," + fVenusAge + " years old on Venus and" + "\n" +
+	fJupiterAge + " years old on Jupiter, and" +fSaturnAge + " years old on Saturn.";
 									          
 	//output the result
 	JOptionPane.showMessageDialog(null, outputStr,"My Age on Other Planets", JOptionPane.INFORMATION_MESSAGE); 
