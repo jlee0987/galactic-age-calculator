@@ -1,4 +1,4 @@
-package project1;
+package project2;
 /*
 Description: This program calculates a user's age on several planets.
  */
